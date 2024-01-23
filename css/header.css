@@ -12,7 +12,7 @@ body {
     height: 50px;
     overflow: hidden;
     padding: 0px 150px;
-    background: #0383cb;
+    background: #555555;
     position: fixed;
     width: 90%;
     z-index: 1;
@@ -35,6 +35,7 @@ body {
 
 .nav-list-wrapper {
     float: left;
+    padding-left: 200px;
 }
 
 .nav-icon {
