@@ -1,5 +1,5 @@
 .slider {
-    background-image: url("/img/slider-0.jpg");
+    background-image: url("../img/slider-0.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -30,11 +30,6 @@
     text-align: center;
 }
 
-.featured.section h2 {
-    font-size: 30pt;
-    margin-bottom: 20px;
-}
-
 .featured-recipe {
     float: left;
     width: 300px;
@@ -61,11 +56,62 @@
     margin: 10px 0px 25px 0px;
 }
 
-.featured-recipe-cta {
+.cta-btn {
     text-decoration: none;
     color: #fff;
     background-color: #0383cb;
     padding: 10px 20px;
     border-radius: 100px;
     margin-top: 30px;
+}
+
+.about.section{
+    padding: 0px;
+    background-color: #ede6fb;
+}
+
+.about-image{
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-image: url("../img/what-we-do.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.about .spongebob{
+    float: left;
+    height: 200px;
+    border-radius: 15px;
+    margin: 40px;
+}
+
+.about-text{
+    float: left;
+    width: 40%;
+    padding: 5%;
+    text-align: left;
+}
+
+.about-text p{
+    font-size: 17pt;
+    margin-bottom: 20px;
+}
+
+.about-text .cta-btn{
+    margin-top: 20px;
+}
+
+.about-text h2{
+    margin-bottom: 20px;
+}
+
+.newsletter{
+    text-align: center;
+    padding: 50px 150px;
+}
+
+#newsletter-btn {
+    margin-left: -2px;
 }

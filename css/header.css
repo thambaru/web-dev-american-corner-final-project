@@ -8,6 +8,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.inline-form-textbox{
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px 0px 0px 15px;
+    width: 150px;
+}
+
+.inline-form-submit-btn{
+    margin-top: 8px;
+    margin-right: 16px;
+    padding: 6px 20px;
+    background: #03cbb0;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    cursor: pointer;
+}
+
 #navbar {
     height: 50px;
     overflow: hidden;
@@ -27,6 +47,7 @@ body {
 
 .logo a {
     color: #f2f2f2;
+    text-decoration: none;
 }
 
 #navbar a {
@@ -69,27 +90,31 @@ body {
     float: right;
 }
 
-#search-textbox {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-    border-radius: 15px 0px 0px 15px;
-    width: 150px;
-}
-
 #search-btn {
     float: right;
-    margin-top: 8px;
-    margin-right: 16px;
-    padding: 6px 20px;
-    background: #03cbb0;
-    font-size: 17px;
-    border: none;
-    border-radius: 0px 15px 15px 0px;
-    cursor: pointer;
 }
 
 .section{
     padding: 50px 150px;
+    height: 620px;
+}
+
+.section h2 {
+    font-size: 30pt;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #555555;
+    padding: 50px 150px;
+    color: #fff;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.copyright-text{
+    text-align: center;
+    padding-top: 20px;
 }
