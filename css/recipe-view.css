@@ -1,0 +1,27 @@
+body {
+    background-color: #fff;
+}
+
+.section {
+    height: inherit;
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(255, 251, 246);
+}
+
+.slider {
+    opacity: 0.8;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.slider h1 {
+    color: #fff;
+    opacity: 0.8;
+    background-color: #000;
+}
+
+.cta-btn-container {
+    text-align: right;
+    margin-top: 50px;
+}
