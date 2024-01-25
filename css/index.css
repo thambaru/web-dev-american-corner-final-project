@@ -56,15 +56,6 @@
     margin: 10px 0px 25px 0px;
 }
 
-.cta-btn {
-    text-decoration: none;
-    color: #fff;
-    background-color: #0383cb;
-    padding: 10px 20px;
-    border-radius: 100px;
-    margin-top: 30px;
-}
-
 .about.section{
     padding: 0px;
     background-color: #ede6fb;
@@ -78,13 +69,6 @@
     background-size: cover;
     background-position: left;
     background-repeat: no-repeat;
-}
-
-.about .spongebob{
-    float: left;
-    height: 200px;
-    border-radius: 15px;
-    margin: 40px;
 }
 
 .about-text{
