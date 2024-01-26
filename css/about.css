@@ -1,0 +1,26 @@
+.slider {
+    background-image: url("../img/slider-2.jpg");
+    text-align: right;
+    position: relative;
+}
+
+.slider h1 {
+    position: absolute;
+    bottom: -5%;
+    right: 28%;
+}
+
+.section {
+    height: inherit;
+    width: 50%;
+    margin: 0px auto;
+    background-color: rgb(255, 251, 246);
+}
+
+.about p {
+    margin-bottom: 50px;
+}
+
+.about ul {
+    margin: 10px;
+}
